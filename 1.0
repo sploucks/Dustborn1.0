@@ -1,0 +1,23 @@
+/******************************************************************************
+
+                            Online C Compiler.
+                Code, Compile, Run and Debug C program online.
+Write your code in this editor and press "Run" button to compile and execute it.
+
+*******************************************************************************/
+
+#include <stdio.h>
+char names[11] = {"O Dajer", "Kaliruun", "Kur Arga", "Torr Sylos", "Erinder", "Tilu Gerss", "Wye", "Saltanat", "Imrink Nu", "Ram Isi", "Opekun Ayal", "Rordou"};
+int main()
+{
+    char ch;
+    printf(" --- DUSTBORN --- \n");
+    scanf("%c", &ch);
+    printf("Welcome to the moon Torobos. A desolate world of vast deserts and merchant caravans, crowned by the occasional bustling Haven.");
+    scanf("%c", &ch);
+    printf("You will follow the adventures of the Borondu Dogosu caravan. A perfect amalgamation of misfits and outlaws bound together in uneasy friendships.");
+    scanf("%c", &ch);
+    printf("Please choose your character:");
+    
+    return(0);
+}
